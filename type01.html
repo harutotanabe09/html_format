@@ -1,49 +1,52 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<title>問い合わせ</title>
-	<link rel="stylesheet" href="./main.css" type="text/css" media="all">
-	<link rel="stylesheet" href="./simple-grid.min.css" type="text/css" media="all">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>問い合わせ</title>
+    <link rel="stylesheet" href="./main.css" type="text/css" media="all">
+    <link rel="stylesheet" href="./simple-grid.min.css" type="text/css" media="all">
 </head>
+
 <body class="body">
-  <div id="page">
-    <div class="main">
-      <div class="inner">
-      <div class="page_title">
-	      <h1 class="title">問い合わせ</h1>
-      </div>
-      	<div class="form">
-        <div class="col-12">
-          <form action="#" class="form-horizontal">
-            <div class="row column">
-              <div class="label col-3">お名前</div>
-              <div class="input-area">
-                <input type="text" class="input col-12" id="username" placeholder="お名前" required="required">
-              </div>
+    <div id="page">
+        <div class="main">
+            <div class="inner">
+                <div class="page_title">
+                    <h1 class="title">問い合わせ</h1>
+                </div>
+                <div class="form">
+                    <div class="col-12">
+                        <form action="#" class="form-horizontal">
+                            <div class="row column">
+                                <div class="label col-3">お名前</div>
+                                <div class="input-area">
+                                    <input type="text" class="input col-12" id="username" placeholder="お名前" required="required">
+                                </div>
+                            </div>
+                            <div class="row column">
+                                <label for="mail" class="label">メール1</label>
+                                <div class="input-area">
+                                    <input type="text" class="input col-12" id="mail" placeholder="メール" required="required">
+                                </div>
+                            </div>
+                            <div class="row column">
+                                <label for="contents" class="label">問い合わせ内容</label>
+                                <div class="input-area">
+                                    <textarea class="textarea col-12" cols="50" rows="5" id="contents"></textarea>
+                                </div>
+                            </div>
+                            <div class="row button-form">
+                                <div class="submit btn-box">
+                                    <button class="button" type="submit">送信</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
             </div>
-            <div class="row column">
-              <label for="mail" class="label">メール</label>
-              <div class="input-area">
-                <input type="text" class="input col-12" id="mail" placeholder="メール" required="required">
-              </div>
-            </div>
-            <div class="row column">
-              <label for="contents" class="label">問い合わせ内容</label>
-              <div class="input-area">
-                <textarea class="textarea col-12" cols="50" rows="5" id="contents"></textarea>
-              </div>
-            </div>
-            <div class="row button-form">
-              <div class="submit btn-box">
-                <button class="button" type="submit">送信</button>
-              </div>
-            </div>
-          </form>
         </div>
-      </div>
-</div>
     </div>
-  </div>
 </body>
+
 </html>
